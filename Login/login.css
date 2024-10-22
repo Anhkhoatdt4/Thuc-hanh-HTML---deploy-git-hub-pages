@@ -1,0 +1,119 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.login{
+    background: url();
+}
+
+
+body{
+    background: url(https://static.vecteezy.com/system/resources/previews/001/271/648/original/purple-prism-3d-illustration-free-photo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.login{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box{
+    position: absolute;
+    border: 20px solid #black;
+}
+.login__heading{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+
+.input-box label{
+    position: absolute;
+    top : 25%;
+    left: 5px;
+    color: #fff;
+    transform: translateY(-50%);
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: 30px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+   
+}
+.input-box__icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 57px;
+}
+.remember-forgot{
+    margin: 15px 0 15px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
+}
+.register-link{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register-link a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 750;
+}
